@@ -1,0 +1,50 @@
+body {
+  margin: 30px;
+  /* color: white; */
+  /* background: black; */
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-block;
+  color: aqua;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+nav a {
+  padding: 10px 20px;
+}
+
+h1, h2, h3 {
+  margin-top: 15px;
+}
+
+th, td {
+  color: white;
+}
+body, body div, body div.row, body div.container {
+  background-color: black;
+  color: white;
+}
+html, body {
+  height: 100%;  /* Ensures the html and body elements are at least the height of the viewport */
+  margin: 0;     /* Resets any default margin */
+  padding: 0;    /* Resets any default padding */
+}
+
+.container {
+  min-height: 100vh; /* Ensures the container extends to at least the height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+.container, .container * {
+  color: white;  /* Ensures all text inside the container is white */
+  background-color: black; /* Makes sure all elements in the container share the same background */
+}
